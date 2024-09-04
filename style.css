@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body{
+    margin: auto;
+    margin-top: -21px;
+    background-color:  #04BF8A ;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom,#04BF8A, #025940);
+    margin: 0%;
+    height: 300px;
+    position: relative;
+}
+article#titulo > h1 {
+    font-size: 45px;
+    padding-top: 3%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+article#titulo > p {
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+
+article#menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 15px;
+}
+.link:hover {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+main {
+    width: 2000px;
+    background-color: white;
+    margin: auto;
+    align-content: center;
+}
+
+h1#titulo_historia {
+    font-size: 45px;
+    color: #025940 ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.textos {
+    text-align: justify;
+    text-indent: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+span{
+    color: #025940;
+    font-weight: 600;
+}
+
+.pesquisa {
+    text-decoration: none;
+    color: #025940;
+}
+
+source {
+    width: 100%;
+}
+img{
+    width: 98%;
+    margin-left: 1%;
+}
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #025940;
+    background-image: linear-gradient(to right, #7bf5d271, white);
+    margin-left: 20px;
+    font-size: 30px;
+}
+#leia_mais {
+    border-radius: 20px;
+    background-color: #04bf8a66;
+    width: 95%;
+    margin-left: 20px;
+}
+
+#aprender_mais {
+    color: white;
+    background-color: #07af80;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    text-indent: 2%;
+}
+div {
+
+    background-color: #025940;
+    padding: auto;
+}
+#video {
+    position: relative;
+    margin-left: 2%;
+
+}
